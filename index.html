@@ -370,6 +370,7 @@
           <div class="relative isolate overflow-hidden bg-teal-blue px-6 pt-8 sm:mx-auto sm:max-w-2xl sm:rounded-3xl sm:pl-16 sm:pr-0 sm:pt-16 lg:mx-0 lg:max-w-none">
             <div class="absolute -inset-y-px -left-3 -z-10 w-full origin-bottom-left skew-x-[-30deg] bg-indigo-100 opacity-20 ring-1 ring-inset ring-white" aria-hidden="true"></div>
             <div class="mx-auto max-w-2xl sm:mx-0 sm:max-w-none">
+              <!-- Removed class lock for image -->
               <img 
                 src="images/orangegraoh.png" 
                 alt="Product illustration" 
@@ -474,13 +475,24 @@
     </div>  
   
     <footer class="bg-white">
-      <div class="mx-auto max-w-7xl px-6 py-12 md:flex md:items-center md:justify-between lg:px-8">
-        <div class="flex justify-center gap-x-6 md:order-2">
-          <img class="h-10 w-auto" src="images/titaniq-icon.png" alt="Titan IQ icon">
-        </div>
-        <p class="mt-8 text-center text-sm/6 text-deep-blue md:order-1 md:mt-0">&copy; 2025 Titan IQ. All rights reserved.</p>
+  <div class="mx-auto max-w-7xl px-6 py-12 md:flex md:items-center md:justify-between lg:px-8">
+    
+    <div class="flex justify-center md:order-2 gap-x-6">
+      <img class="h-10 w-auto" src="images/titaniq-icon.png" alt="Titan IQ icon" />
+    </div>
+
+    <div class="mt-6 md:mt-0 text-center text-sm text-gray-500 md:order-1 w-full">
+      <p class="mb-2">&copy; 2025 Titan IQ. All rights reserved.</p>
+      <div>
+        <a href="./PrivacyPolicyTitanIQ.html" class="hover:underline hover:text-blue-600 transition-colors duration-200">Privacy Policy</a>
+        <span class="mx-2">|</span>
+        <a href="./TermsAndConditionsTitanIQ.html" class="hover:underline hover:text-blue-600 transition-colors duration-200">Terms & Conditions</a>
       </div>
-    </footer>
+    </div>
+
+  </div>
+</footer>
+
     
   
   <script type="module" src="/main.js"></script>
